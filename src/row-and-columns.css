@@ -1,0 +1,70 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid white;
+  padding: 1rem;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 7.5rem;
+  padding: 0 2rem;
+  background-color: forestgreen;
+}
+
+.column:not(:last-child) {
+  margin-right: 0.75rem;
+}
+
+/* ROW WIDTHS */
+
+.is-1 {
+  flex: 1;
+}
+
+.is-2 {
+  flex: 2;
+}
+
+.is-3 {
+  flex: 3;
+}
+
+.is-4 {
+  flex: 4;
+}
+
+.is-5 {
+  flex: 5;
+}
+
+.is-6 {
+  flex: 6;
+}
+
+.is-7 {
+  flex: 7;
+}
+
+.is-8 {
+  flex: 8;
+}
+
+.is-9 {
+  flex: 9;
+}
+
+.is-10 {
+  flex: 10;
+}
+
+.is-11 {
+  flex: 11;
+}
+
+.is-12 {
+  flex: 12;
+}

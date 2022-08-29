@@ -1,0 +1,29 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 3rem;
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.code-blocks {
+  display: flex;
+  flex-direction: row;
+  width: 90vw;
+}
+
+.code-blocks__single {
+  flex: 1;
+  margin: 1rem;
+}
+
+section {
+  margin-bottom: 3rem;
+  width: 90vw;
+}
