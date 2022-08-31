@@ -1,54 +1,6 @@
 import "./App.css";
 import "./row-and-columns.css";
 
-const is_code = `.is-1 {
-  flex: 1;
-}
-
-.is-2 {
-  flex: 2;
-}
-
-.is-3 {
-  flex: 3;
-}
-
-.is-4 {
-  flex: 4;
-}
-
-.is-5 {
-  flex: 5;
-}
-
-.is-6 {
-  flex: 6;
-}
-
-.is-7 {
-  flex: 7;
-}
-
-.is-8 {
-  flex: 8;
-}
-
-.is-9 {
-  flex: 9;
-}
-
-.is-10 {
-  flex: 10;
-}
-
-.is-11 {
-  flex: 11;
-}
-
-.is-12 {
-  flex: 12;
-}`;
-
 function App() {
   return (
     <div className="App">
@@ -94,13 +46,37 @@ function App() {
         </div>
 
         <div className="row">
-          <div className="column is-1">
+          <div className="column is-3">
             <p>This column takes up ⅓ of the flex spaces in the row.</p>
             <p>
               Scaled to a 12 column row, this single column would be 4 wide.
             </p>
           </div>
-          <div className="column is-2">
+          <div className="column is-1">
+            <p>This column takes up ⅔ of the flex spaces in the row.</p>
+            <p>
+              Scaled to a 12 column row, this single column would be 4 wide.
+            </p>
+          </div>
+          <div className="column is-3">
+            <p>This column takes up ⅓ of the flex spaces in the row.</p>
+            <p>
+              Scaled to a 12 column row, this single column would be 4 wide.
+            </p>
+          </div>
+          <div className="column is-1">
+            <p>This column takes up ⅔ of the flex spaces in the row.</p>
+            <p>
+              Scaled to a 12 column row, this single column would be 4 wide.
+            </p>
+          </div>
+          <div className="column is-3">
+            <p>This column takes up ⅓ of the flex spaces in the row.</p>
+            <p>
+              Scaled to a 12 column row, this single column would be 4 wide.
+            </p>
+          </div>
+          <div className="column is-1">
             <p>This column takes up ⅔ of the flex spaces in the row.</p>
             <p>
               Scaled to a 12 column row, this single column would be 4 wide.
@@ -122,21 +98,6 @@ function App() {
             </p>
           </div>
         </div>
-      </section>
-
-      <section>
-        <h2>Using `.is-#` classes to dictate flex sizings</h2>
-        <p></p>
-        <pre>
-          {is_code
-            .split("\n\n")
-            .join("")
-            .split("\n")
-
-            .map((line) => (
-              <code key={line}>{line}</code>
-            ))}
-        </pre>
       </section>
 
       <section>
